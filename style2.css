@@ -1,0 +1,79 @@
+body{
+    margin:o;
+    padding:0;
+    text-align:center;
+    background-color: cadetblue;
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;
+}
+ul{
+	
+	list-style:none;
+  	height:36px;
+	line-height:36px;
+	background-color:;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+}
+li{
+	float:left;
+	border-right:1px white;
+	
+}
+a{
+	display:block;
+	padding:0 28px;
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	background-color:red;
+}
+.active a{
+	background-color:red;
+}
+.contact-title
+{
+    margin-top: 100px;
+    color:white;
+    text-transform:uppercase;
+    transition: all 4s ease ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+
+}
+.contact-title h2{
+    font-size: 16px;
+}form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color:#44336;
+    cursor:pointer;
+}
